@@ -4,14 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murphy Gardens</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .hours-icon {
+            fill: green;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
         <div class="header__logo-large">
             <img class="header__logo-large--img" src="./Images/Logo large.png" alt="Murphy Gardens Logo">
         </div>
-        <div class="header__hours"><img class="header__hours-img" src="./icons/iconmonstr-time-3.svg" alt=""> Mon - Sat 9.00 - 18.00</div>
+        <div class="header__info">
+            <div class="header__hours"><img class="header__icon" src="./icons/iconmonstr-time-3 1.svg" alt="hours">
+                <p class="header__hours-text">
+                   Mon - Sat 9.00 - 18.00
+   
+               </p>
+            </div>
+            <div class="header__contact">
+            <img class="header__icon" src="./icons/iconmonstr-smartphone-7 1.svg" alt="contact details">
+                 <p class="header__contact-text-phone">(+44) 07470 359110</p>
+                <p class="header__contact-text-email">murphygardens1@gmail.com</p>
+            </div>
+            <div class=".btn">
+                <a href="#" class="btn">GET A QUOTE</a>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="header__nav-inside">
+                <ul class="header__nav-items">
+                    <li class="header__li-nav"><a href="#" class="header__nav-link">About</a></li>
+                    <li class="header__li-nav"><a href="" class="header__nav-link">Gallery</a></li>
+                    <li class="header__li-nav"><a href="" class="header__nav-link">Pricing</a></li>
+                    <li class="header__li-nav"><a href="" class="header__nav-link">Contact</a></li>
+                </ul>
+                <div class="header__nav-networks">
+                    <a class="header__nav-networks-link" href="www.facebook.com/murphygardens1"><img src="./icons/iconmonstr-facebook-6.svg" alt="facebook"></a>
+                    <a class="header__nav-networks-link" href="www.facebook.com/murphygardens1"><img src="./icons/iconmonstr-instagram-9.svg" alt="facebook"></a>
+                    <a class="header__nav-networks-link" href="www.facebook.com/murphygardens1"><img src="./icons/iconmonstr-twitter-3.svg" alt="facebook"></a>
+                </div>
+                <img class="header__nav-logo" src="./Images/logo.png" alt="logo">
+            </div>
+        </div>
     </header>
+    <div class="main__bg"></div>
 </body>
 </html>
