@@ -41,7 +41,6 @@ body {
 
 .header__contact {
     position: absolute;
-    top: 3rem;
     left: 58%;
     top: 1.6rem;
 }
@@ -56,18 +55,23 @@ body {
     font-size: 1.8rem;
     line-height: 2.1rem;
     color: #414141;
+    padding-left: 4.2rem;
 }
 
 .header__hours-text {
     display: inline-block;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
 }
 
 .header__icon {
     float:left;
     padding-right: 1rem;
     padding-top:0.5rem;
+}
+
+.header__icon-phone {
+    padding-top: 1.7rem;
 }
 
 .btn {
@@ -78,7 +82,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 1rem 1.5rem;
-    border-radius: 50px;
+    border-radius: 5rem;
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 2.8rem;
@@ -180,8 +184,25 @@ body {
     color: #00642B;
     font-weight: bold;
     font-size: 48px;
-    line-height: 65px;
+    line-height: 6.5rem;
     text-align: center;
     margin-top: 5vh;
-
 }
+
+.main__services-text {
+    padding: 8rem 20rem;
+}
+
+.main__services-text--second-heading {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+}
+
+.main__services-paragraph {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    width:50%;
+    padding-top:5rem;
+}
+
