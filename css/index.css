@@ -15,6 +15,7 @@ body {
     /* font-size: 16px; */
     line-height: 1.7;
     color: rgb(3, 3, 3);
+    background-color: #fdfcfc;
  }
 
 .header {
@@ -29,8 +30,7 @@ body {
 .header__info {
     font-size: 1.5rem;
     width: 100%;
-    /* text-align: center; */
-    /* background:blue; */
+
 }
 
 .header__hours {
