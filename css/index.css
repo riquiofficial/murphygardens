@@ -321,13 +321,14 @@ body {
 
 .main__bg {
     width: 100%;
-    height: 380px;
+    height: 450px;
     background-image: linear-gradient(180deg, rgba(2, 90, 0, 0.175) 78.65%, rgba(0, 0, 0, 0.665) 99.99%, rgba(255, 255, 255, 0) 100%), url(/Images/120974832_337842137285282_3272719582638428414_n.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center bottom;
+    background-position: bottom;
 }
+
 
 .main-services {
     width: 100%;
@@ -341,24 +342,27 @@ body {
     font-size: 48px;
     line-height: 6.5rem;
     text-align: center;
-    margin-top: 5vh;
+    /* margin-top: ; */
+    margin-bottom: 20px;
 }
 
-.main__services-text {
-    padding: 8rem 20rem;
-}
+
 
 .main__services-text--second-heading {
     font-weight: 500;
-    font-size: 2.4rem;
-    line-height: 2.8rem;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    padding-top: 5rem;
 }
 
 .main__services-paragraph {
-    font-size: 1.8rem;
-    line-height: 2.1rem;
-    width:50%;
-    padding-top:5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-top: 5rem;
+}
+
+.main__images {
+    padding-top: 5rem;
 }
 
 
@@ -379,5 +383,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center top;
 }
+
+.section-about {
+    margin: 3rem 0;
+    }
