@@ -7,6 +7,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
  }
 
  @media only screen and (max-width: 1180px) {
@@ -41,6 +42,7 @@ body {
     line-height: 1.7;
     color: rgb(3, 3, 3);
     background-color: #fdfcfc;
+    
  }
 
 .header {
@@ -417,6 +419,82 @@ body {
     margin: 3rem 0;
 }
 
-@media only screen and (max-width: 702px) {
 
+.section-features {
+    margin-top: 25rem;
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(127, 219, 111, 0.8), rgba(0, 90, 15, 0.8)), url(../Images/strimmer.jpg);
+  background-size: cover;
+  background-position: center center;
 }
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s; }
+  .feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    background-image: linear-gradient(to right, #7ed56f, #01642a);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top:1rem;
+    }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+
+.heading-tertiary {
+
+} 
+
+.u-margin-bottom-small {
+    margin-bottom: 2rem;
+}
+
+.btn-text:link, .btn-text:visited {
+    color: #01642a;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #01642a;
+    padding: 3px;
+    font-size: 2.5rem;
+    transition: all .2s; }
+  
+  .btn-text:hover {
+    background-color: #01642a;
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
+  
+  .btn-text:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0); }
+
+.btn-text-top:link, .btn-text-top:visited {
+    color: #e3f0e8;
+    position: absolute;
+    left:5rem;
+    
+    position:center;
+    text-decoration: none;
+    border-bottom: 1px solid #e2eee7;
+    padding: 3px;
+    font-size: 2.5rem;
+    transition: all .2s; }
+  
+  .btn-text-top:hover {
+    background-color: #deebe3;
+    color: rgb(1, 46, 1);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
+  
+  .btn-text-top:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0); }
+
+  
