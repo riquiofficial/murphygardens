@@ -50,7 +50,22 @@
             </div>
         </div>
     </header>
-    <div class="main__bg"></div>
+    <div class="contact__bg">
+        <div class="contact-form">
+            <div class="contact">
+                <form action="/thanks.html" class="contact__form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                  
+                    <label class="contact__form-name">Your Name:<br> <input type="text" name="name" /></label>   
+                 
+                    <label class="contact__form-email">Your Email:<br> <input type="email" name="email" required></label>
+                  
+                    <label class="contact__form-message">Message:<br> <textarea name="message" required></textarea></label>
+                    <div data-netlify-recaptcha="true"></div>
+                    <button type="submit" class="btn--send">Send</button>
+                </form>
+              </div>
+        </div>
+    </div>
     <div class="main__services">
         <h1 class="main__services-heading">Contact Murphy Gardens</h1>
         <div class="main__services-text">
