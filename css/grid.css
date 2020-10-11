@@ -24,10 +24,21 @@
     width: calc((2 * (100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
     width: calc((3 * (100% - 3 * 6rem) / 4) + 6rem * 2); }
+  
 
 
-    @media only screen and (max-width: 702px) {
-      .col-1-of-2 {
-        width: 100%;
-      }
+  @media only screen and (max-width: 702px) {
+
+    .row .col-1-of-2 {
+      width:100%;
+      padding: 2rem;
+      margin-bottom:3rem;
+      height: 200px;
+    }
+    .row .col-1-of-4 {
+      width:100%;
+      padding:0 25% 2rem 25%;
+      
+    }
+
   }
