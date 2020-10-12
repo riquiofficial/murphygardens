@@ -59,9 +59,10 @@ body {
     width: 100%;
 
 }
-.mobile-nav {
+.mobile__nav {
     display: none;
 }
+
 
 .header__hours {
     position: absolute;
@@ -146,7 +147,7 @@ body {
         display: none;
     }
 
-    .mobile-nav {
+    .mobile__nav {
         display: block;
         position: fixed;
         top:1%;
@@ -155,6 +156,7 @@ body {
         border-radius: 10px;
         padding:1% 1% 0.4% 1%;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 20;
     }
 
     .btn {
@@ -200,7 +202,6 @@ body {
     }
 
     .header__contact {
-        
         left: 50%;
         top:10rem;
         padding-right:10px;
@@ -465,10 +466,6 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
-.heading-tertiary {
-
-} 
-
 .u-margin-bottom-small {
     margin-bottom: 2rem;
 }
@@ -519,9 +516,8 @@ body {
     margin-top: 80px;
     color: rgb(238, 234, 234);
     position:absolute;
-    top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
     font-size: 2rem;
     font-weight:700;
     text-transform: capitalize;
@@ -589,4 +585,61 @@ body {
 .btn--send:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity:0;
+}
+
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 100px;
+  padding-bottom: 100px;
+  }
+  .card__side {
+    color: #fff;
+    font-size: 2rem;
+    height: 50rem;
+    transition: all .8s ease;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+     }
+    .card__side--front {
+      background-size: cover;
+      background-position: bottom left;
+    }
+    .card__side--front-1 {
+        background-image: url(../Images/before1.jpg);
+    }
+    .card__side--front-2 {
+        background-image: url(../Images/before2.jpg);
+    }
+    .card__side--back {
+      transform: rotateY(180deg); }
+      .card__side--back-1 {
+        background: url(../Images/after1.jpg);
+        background-size: cover;
+        background-position: bottom;
+     }
+     .card__side--back-2 {
+         background: url(../Images/after2.jpg);
+        background-size: cover;
+        background-position: bottom;
+     }
+  .card:hover .card__side--front {
+    transform: rotateY(-180deg);
+     }
+  .card:hover .card__side--back {
+   transform: rotateY(0);
+     }
+
+.margin-bottom-small {
+    margin-bottom: 6rem;
+}
+
+.margin-left-small {
+    margin-left: 6rem;
 }

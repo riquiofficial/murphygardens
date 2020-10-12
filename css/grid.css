@@ -41,4 +41,9 @@
       
     }
 
+    .row .col-1-of-3 {
+      width:100%;
+      padding:0 25% 2rem 25%;
+    }
+
   }
