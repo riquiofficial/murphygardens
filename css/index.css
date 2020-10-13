@@ -353,17 +353,16 @@ body {
 .contact__bg {
     width: 100%;
     height: 600px;
-    background: linear-gradient(179.99deg, rgba(0, 0, 0, 0.75) 99.97%, rgba(0, 0, 0, 0.15) 99.98%, rgba(255, 255, 255, 0) 99.99%), url(/Images/strimmer.jpg);    background-repeat: no-repeat;
+    background: linear-gradient(179.99deg, rgba(0, 0, 0, 0.75) 99.97%, rgba(0, 0, 0, 0.15) 99.98%, rgba(255, 255, 255, 0) 99.99%), url(/Images/strimmer.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center right;
 }
 
 
-.main-services {
-    width: 100%;
-    position: absolute;
-    height: 100vh;
+.main__services {
+    height: 85vh;
 }
 
 .main__services-heading {
@@ -427,11 +426,11 @@ body {
 .about__bg {
     width: 100%;
     height: 450px;
-    background-image: linear-gradient(180deg, rgba(2, 90, 0, 0.175) 78.65%, rgba(0, 0, 0, 0.665) 99.99%, rgba(255, 255, 255, 0) 100%), url(/Images/120974832_337842137285282_3272719582638428414_n.png);
+    background-image: linear-gradient(179.99deg, rgba(0, 0, 0, 0.75) 99.97%, rgba(12, 155, 12, 0.15) 99.98%, rgba(17, 87, 17, 0) 99.99%), url(/Images/glasgow.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
 }
 
 .gallery__bg {
@@ -602,11 +601,13 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 100px;
-  padding-bottom: 100px;
+  content: "";
+  height: 50rem;
+  
   }
   .card__side {
     color: #fff;
+    
     font-size: 2rem;
     height: 50rem;
     transition: all .8s ease;
@@ -616,11 +617,12 @@ body {
     left: 0;
     backface-visibility: hidden;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
      }
     .card__side--front {
       background-size: cover;
-      background-position: bottom left;
+      background-position: bottom;
+      border: solid lightgray 5px;
     }
     .card__side--front-1 {
         background-image: url(../Images/before1.jpg);
@@ -628,24 +630,48 @@ body {
     .card__side--front-2 {
         background-image: url(../Images/before2.jpg);
     }
+    .card__side--front-3 {
+        background-image: url(../Images/before3.jpg);
+    }
+    .card__side--front-4 {
+        background-image: url(../Images/before4.jpg);
+    }
     .card__side--back {
-      transform: rotateY(180deg); }
+      transform: rotateY(180deg);
+      border: solid #176e20 5px;
+       }
       .card__side--back-1 {
         background: url(../Images/after1.jpg);
         background-size: cover;
-        background-position: bottom;
+    background-position: bottom;
      }
      .card__side--back-2 {
          background: url(../Images/after2.jpg);
-        background-size: cover;
-        background-position: bottom;
+         background-size: cover;
+         background-position: bottom;
      }
+     .card__side--back-3 {
+        background: url(../Images/after3.jpg);
+       background-size: cover;
+       background-position: bottom;
+    }
+    .card__side--back-4 {
+        background: url(../Images/after4.jpg);
+       background-size: cover;
+       background-position: bottom;
+    }
   .card:hover .card__side--front {
     transform: rotateY(-180deg);
      }
   .card:hover .card__side--back {
    transform: rotateY(0);
      }
+    .card:active .card__side--front {
+    transform: rotateY(-180deg);
+        }
+    .card:active .card__side--back {
+    transform: rotateY(0);
+        }
 
 .margin-bottom-small {
     margin-bottom: 6rem;
