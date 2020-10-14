@@ -31,12 +31,9 @@ html {
 
 }
 
-
-
-
 body {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     /* font-size: 10px; */
     line-height: 1.7;
@@ -131,10 +128,10 @@ body {
     background: #2F9F36;
     text-decoration: none;
     color: white;
-    padding: 1rem 1.5rem;
+    padding: 1.2rem 2.3rem;
     border-radius: 5rem;
     font-weight: 700;
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 2.8rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
     height: 5.4rem;
@@ -160,13 +157,10 @@ body {
     }
 
     .btn {
-        font-size: 24px;
+        font-size: 20px;
         height: 54px;
         line-height: 4.4rem;
-        padding-bottom: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 13px;
+        padding: 15px 10px 10px 23px;
         margin-right:10px;
         right:0;
         top: 80px;
@@ -182,7 +176,7 @@ body {
         background: #2F9F36;
         text-decoration: none;
         color: white;
-        padding: 7px 0 0 38px;
+        padding: 5px 0 0 35px;
         border-radius: 5rem;
         font-weight: 700;
         width: 120px;
@@ -304,12 +298,18 @@ body {
     list-style:none;
     display: inline-block;
     padding: 0 3rem;
+    transition: all .4s ease;
+}
+
+.header__li-nav:hover {
+    transform: scale(1.1);
 }
 
 .header__nav-link {
     color: #FFFBFB;
     text-decoration: none;
     transition: all 0.3s ease 0s;
+    font-weight: 500;
 }
 
 .header__nav-networks {
@@ -362,18 +362,19 @@ body {
 
 
 .main__services {
-    height: 85vh;
+    height: 75vh;
 }
 
 .main__services-heading {
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     color: #00642B;
     font-weight: bold;
     font-size: 48px;
     line-height: 6.5rem;
     text-align: center;
     /* margin-top: ; */
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 
@@ -383,6 +384,7 @@ body {
     font-size: 4rem;
     line-height: 4.8rem;
     padding-top: 5rem;
+    font-weight: 600;
 }
 
 .main__services-paragraph {
@@ -636,6 +638,12 @@ body {
     .card__side--front-4 {
         background-image: url(../Images/before4.jpg);
     }
+    .card__side--front-5 {
+        background-image: url(../Images/before5.jpg);
+    }
+    .card__side--front-6 {
+        background-image: url(../Images/before6.jpg);
+    }
     .card__side--back {
       transform: rotateY(180deg);
       border: solid #176e20 5px;
@@ -643,7 +651,7 @@ body {
       .card__side--back-1 {
         background: url(../Images/after1.jpg);
         background-size: cover;
-    background-position: bottom;
+        background-position: bottom;
      }
      .card__side--back-2 {
          background: url(../Images/after2.jpg);
@@ -660,18 +668,23 @@ body {
        background-size: cover;
        background-position: bottom;
     }
+    .card__side--back-5 {
+        background: url(../Images/after5.jpg);
+       background-size: cover;
+       background-position: bottom center;
+    }
+    .card__side--back-6 {
+        background: url(../Images/after6.jpg);
+       background-size: cover;
+       background-position: center;
+    }
+
   .card:hover .card__side--front {
-    transform: rotateY(-180deg);
+    transform: translateY(-10px) rotateY(-180deg);
      }
   .card:hover .card__side--back {
-   transform: rotateY(0);
+   transform: translateY(-30px) rotateY(0);
      }
-    .card:active .card__side--front {
-    transform: rotateY(-180deg);
-        }
-    .card:active .card__side--back {
-    transform: rotateY(0);
-        }
 
 .margin-bottom-small {
     margin-bottom: 6rem;
@@ -680,3 +693,8 @@ body {
 .margin-left-small {
     margin-left: 6rem;
 }
+
+footer {
+    text-align: end;
+}
+
