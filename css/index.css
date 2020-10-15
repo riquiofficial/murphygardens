@@ -655,6 +655,9 @@ body {
     .card__side--front-6 {
         background-image: url(../Images/before6.jpg);
     }
+    .card__side--front-7 {
+        background-image: url(../Images/before7.jpg);
+    }
     .card__side--back {
       transform: rotateY(180deg);
       border: solid #176e20 5px;
@@ -686,6 +689,11 @@ body {
     }
     .card__side--back-6 {
         background: url(../Images/after6.jpg);
+       background-size: cover;
+       background-position: center;
+    }
+    .card__side--back-7 {
+        background: url(../Images/after7.jpg);
        background-size: cover;
        background-position: center;
     }
