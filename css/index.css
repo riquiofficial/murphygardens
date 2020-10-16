@@ -768,6 +768,12 @@ body {
     .card__side--front-7 {
         background-image: url(../Images/before7.jpg);
     }
+    .card__side--front-8 {
+        background-image: url(../Images/before8.jpg);
+    }
+    .card__side--front-9 {
+        background-image: url(../Images/before9.jpg);
+    }
     .card__side--back {
       transform: rotateY(180deg);
       border: solid #176e20 5px;
@@ -807,6 +813,16 @@ body {
        background-size: cover;
        background-position: center;
     }
+    .card__side--back-8 {
+        background: url(../Images/after8.jpg);
+       background-size: cover;
+       background-position: center;
+    }
+    .card__side--back-9 {
+        background: url(../Images/after9.jpg);
+       background-size: cover;
+       background-position: center;
+    }
 
   .card:hover .card__side--front {
     transform: translateY(-10px) rotateY(-180deg);
@@ -837,6 +853,7 @@ body {
     .footer__navigation {
       border-top: 1px solid #777;
       padding-top: 2rem;
+      padding-left: 2rem;
       display: inline-block; }
     .footer__list {
       list-style: none; }
@@ -858,6 +875,7 @@ body {
     .footer__copyright {
       border-top: 1px solid #777;
       padding-top: 2rem;
+      padding-right: 2rem;
       width: 30%;
       float: right; }
 
