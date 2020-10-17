@@ -41,7 +41,7 @@ html {
     right: 2.5rem;
     background-image: radial-gradient(#2f9f36, #00642b);
     z-index: 1000;
-    animation: page-load 1s cubic-bezier(0.86, 0, 0.07, 1);
+    animation: page-load 1.2s cubic-bezier(0.86, 0, 0.07, 1);
     /* transition: 1s cubic-bezier(0.86, 0, 0.07, 1); */
      }
 
@@ -468,10 +468,7 @@ body {
 .header__nav-link:hover {
     color: rgb(49, 80, 51);
 }
-/* 
-.header__nav-link:active .page_load {
-    animation: change-page 0.5s ease;
-} */
+
 
 
 .header__nav-logo {
