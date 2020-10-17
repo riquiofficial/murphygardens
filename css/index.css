@@ -84,6 +84,14 @@ body {
         left:40%;
         top:10rem;
     }
+    .main__services-paragraph {
+        margin: 3rem;
+    }
+
+    .main__services-text--second-heading {
+        margin: 3rem;
+    }
+
 }
 
 .header__contact-text-phone {
@@ -186,7 +194,6 @@ body {
         top: 0;
         left: 0;
         right: 0;
-        z-index: 1500;
         opacity: 0;
         width: 0;
         z-index: -5;
@@ -847,7 +854,7 @@ body {
     font-size: 1.4rem; }
     .footer__logo-box {
       text-align: center;
-      /* margin-bottom: 8rem; */
+      margin-bottom: 3rem;
      }
     .footer__logo {
       width: 15rem;
