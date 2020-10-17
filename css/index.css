@@ -508,7 +508,7 @@ body {
 
 
 .main__services {
-    height: 75vh;
+    height: 480px;
 }
 
 .main__services-heading {
@@ -930,5 +930,5 @@ body {
 
 
 .contact__us {
-    height: 100vh;
+    height: 636px;
 }
