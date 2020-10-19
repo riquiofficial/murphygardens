@@ -998,3 +998,7 @@ body {
     .story:hover .story__img {
       transform: translateY(2rem) scale(1);
       filter: blur(3px) brightness(80%); }
+
+      .text-green {
+          color: #176e20;
+      }
