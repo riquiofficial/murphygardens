@@ -1000,6 +1000,11 @@ body {
       transform: translateY(2rem) scale(1);
       filter: blur(3px) brightness(80%); }
 
-      .text-green {
-          color: #176e20;
-      }
+@media only screen and (max-width: 452px) {
+    .about__bg {
+        height: 130rem;
+    }
+
+.text-green {
+    color: #176e20;
+}
