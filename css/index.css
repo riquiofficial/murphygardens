@@ -658,6 +658,10 @@ body {
     margin-bottom: 2rem;
 }
 
+.btn-text {
+    z-index: 500;
+}
+
 .btn-text:link, .btn-text:visited {
     color: #01642a;
     display: inline-block;
@@ -666,7 +670,8 @@ body {
     padding: 3px;
     font-size: 2.5rem;
     transition: all .2s;
-    z-index: 20; }
+    transform: translateY(0);
+     }
   
   .btn-text:hover {
     background-color: #01642a;
@@ -676,7 +681,7 @@ body {
   
   .btn-text:active {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    transform: translateY(0); }
+    transform: translateY(1); }
 
 .btn-text-top:link, .btn-text-top:visited {
     color: #e3f0e8;
